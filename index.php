@@ -1,3 +1,6 @@
+<?php
+include 'setup.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +33,7 @@
                             <tbody>
                                 <!-- Dynamic rows will be added via PHP -->
                                 <?php
-                                include 'doctors.php'; // Fetch doctors data dynamically
+                                    include 'doctors.php'; // Fetch doctors data dynamically
                                 ?>
                             </tbody>
                         </table>
@@ -39,5 +42,6 @@
             </div>
         </div>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
