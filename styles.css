@@ -1,0 +1,33 @@
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #003366;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.card-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.btn-book {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-book:hover {
+    background-color: #0056b3;
+}
